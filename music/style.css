@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mull{
+    background-color: rgb(179, 16, 16);
+    margin: 0px auto;
+}
+
+.mull::after{
+        content:'';
+        clear: both;
+        display: block;
+    
+}
+.call{
+    background-color: green;
+
+    width: 29%;
+    float: right;
+    margin:  40px 20px;
+    padding: 10px;
+   
+    
+}
+
+.call p,h2{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#call:after {
+    content:'';
+    clear: both;
+    display: block;
+}
+.content{
+    background-color: rgb(26, 25, 25);
+    padding: 40px;
+    margin-top: 50px;
+}
+.content p{
+    color: cornsilk;
+    font-size: 20px;
+}
+.content h2{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: darkgoldenrod;
+}
+.fixx::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.main::after{
+    content:'';
+    clear: both;
+    display: block;
+}
+section,aside{
+    float: left;
+    width: 46%;
+    margin: 20px;
+    padding: 10px;
+}
+section h2{
+    color: darkgreen;
+    font-size: 30px;
+}
+section p{
+    font-size: 20px;
+  
+}
+
+aside h2{
+    color:darkgreen;
+    font-size: 30px;
+}
+aside p{
+    font-size:20px ;
+}
+
+img{
+    width: 500px;
+    margin: 20px;
+}
+
+.main:after{
+    content: '';
+    clear: both;
+    display: blocks;
+}
+
+.amou h2{
+    font-size: 40px;
+    margin: 20px;
+    color: floralwhite;
+}
+
+aside img{
+    float: left;
+    margin: 20px 30px;
+    width: 450px;
+    height: 300px;
+    
+}
+
+.amou p{
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(122, 129, 22);
+}
+
+.container{
+    width: 900px;
+    margin: 20px auto;
+}
+
+img{
+    width:300px;
+}
+
+p{
+    color: wheat;
+    text-align: center;
+}
+
+li{
+    color: wheat;
+    text-align: center;
+    list-style: none;
+}
+
+/* CSS Resetting */
+h2{
+    color: yellow;
+    background-color: rgba(5, 5, 5, 0.603);
+    padding:20px 20px;
+    font-size: 35px;
+    text-align: right;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: 2px solid  brown;
+    border-radius: 10px;
+}
+
+
